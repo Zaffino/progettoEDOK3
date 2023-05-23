@@ -1,11 +1,13 @@
-package com.unitn.zaffino.lingProg.grafico;
+package com.unitn.zaffino.fornitori;
+
+import com.unitn.zaffino.dbConnection.DBdao;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.LinkedList;
 
-public class DBdaoFornitori implements DBdao<Fornitore>{
+public class DBdaoFornitori implements DBdao<Fornitore> {
 
     Connection c;
 

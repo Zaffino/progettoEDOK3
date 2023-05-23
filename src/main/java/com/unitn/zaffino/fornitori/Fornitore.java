@@ -1,4 +1,4 @@
-package com.unitn.zaffino.lingProg.grafico;
+package com.unitn.zaffino.fornitori;
 
 public class Fornitore {
 
